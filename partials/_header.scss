@@ -1,0 +1,57 @@
+header{ 
+    padding: 10px 50px;
+    background-color: $primary-blue;
+    
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content .logo{
+    width: 10%;
+}
+
+.header-content ul{
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+i{
+    color: $primary-orange;
+    width: 10%;
+}
+
+.icons a:hover{
+    i{
+        animation: translateY 0.8s infinite alternate;
+        color: $primary-normal;
+    }
+}
+
+@keyframes translateY{
+    from{
+        transform: translateY(0) scale(1);
+    }
+    to{
+        transform: translateY(-8px) scale(1);
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .header-content .logo{
+        width: 100px;
+    }
+    header{ 
+    width: 100%;
+    padding: 5px 40px;
+  }
+  .header-content ul{
+    gap: 30px
+  }
+}
