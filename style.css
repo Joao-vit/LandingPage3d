@@ -7,7 +7,6 @@
 
 header {
   padding: 10px 50px;
-  background-color: #122233;
 }
 
 .header-content {
@@ -61,11 +60,27 @@ i {
   margin: 0 auto;
 }
 
+.hero {
+  color: #edf0f2;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+}
+.hero h1 {
+  text-align: center;
+  line-height: 150%;
+  max-width: 940px;
+  font-size: 48px;
+}
+
 body {
   max-width: 100%;
   height: 100vh;
   position: relative;
-  background-color: #edf0f2;
+  background-color: #122233;
 }
 
 button {
