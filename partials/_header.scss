@@ -25,24 +25,6 @@ header{
     color: black;
 }
 
-.icons a:hover{
-    i{
-        animation: translateY 0.8s infinite alternate;
-        color: $primary-normal;
-    }
-}
-
-@keyframes translateY{
-    from{
-        transform: translateY(0) scale(1);
-    }
-    to{
-        transform: translateY(-8px) scale(1);
-    }
-}
-
-
-
 @media screen and (max-width: 768px){
     .header-content .logo{
         width: 100px;
