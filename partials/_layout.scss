@@ -1,24 +1,63 @@
 .container{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .hero{
-    color: $primary-normal;
-    min-height: 80vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 84px 136.81px 81px 121px;
     align-items: center;
-    padding:14px ;
+    gap: 100px;
+    justify-content: space-between;
+   
 
-    h1{
-        text-align: center;
-        line-height: 150%;
-        max-width: 940px;
-        font-size: 46px;
-    }
 }
+
+.chamada1{
+    img{width: 164px;
+        height: 108px;
+        align-items: left;
+    }
+    h1{
+        font-size: 69px;
+        color: $primary-normal;
+        padding-bottom: 29px;
+    }
+    p{
+        font-size: 20px;
+        color: $primary-normal; 
+        padding-bottom: 44px;
+    }
+    
+}
+
+.chamada1 .form1{
+    display: flex;
+    gap: 10px;
+    input{
+        display: flex;
+        width: 339px;
+        padding: 20px 18px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 37px;
+        border: 1px solid rgba(0, 0, 0, 0.20);
+        background: #FAFAFA;
+    }
+    button{display: flex;
+        width: 146px;
+        height: 64px;
+        padding: 20px 24px;
+        justify-content: center;
+        align-items: center;
+       
+        border-radius: 70px;
+        background-color: $primary-orange;
+        }
+    
+}
+
+
 .button-intro{
     padding: 14px 28px;
     color: $primary-normal;

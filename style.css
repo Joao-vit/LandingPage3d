@@ -6,7 +6,8 @@
 }
 
 header {
-  padding: 10px 50px;
+  padding: 18px 119px 18px 120px;
+  background-color: #edf0f2;
 }
 
 .header-content {
@@ -25,9 +26,8 @@ header {
   gap: 60px;
 }
 
-i {
-  color: #fe6b12;
-  width: 10%;
+.header-links {
+  color: black;
 }
 
 .icons a:hover i {
@@ -61,19 +61,52 @@ i {
 }
 
 .hero {
-  color: #edf0f2;
-  min-height: 80vh;
   display: flex;
-  flex-direction: column;
+  padding: 84px 136.81px 81px 121px;
+  align-items: center;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.chamada1 img {
+  width: 164px;
+  height: 108px;
+  align-items: left;
+}
+.chamada1 h1 {
+  font-size: 69px;
+  color: #edf0f2;
+  padding-bottom: 29px;
+}
+.chamada1 p {
+  font-size: 20px;
+  color: #edf0f2;
+  padding-bottom: 44px;
+}
+
+.chamada1 .form1 {
+  display: flex;
+  gap: 10px;
+}
+.chamada1 .form1 input {
+  display: flex;
+  width: 339px;
+  padding: 20px 18px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 37px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #FAFAFA;
+}
+.chamada1 .form1 button {
+  display: flex;
+  width: 146px;
+  height: 64px;
+  padding: 20px 24px;
   justify-content: center;
   align-items: center;
-  padding: 14px;
-}
-.hero h1 {
-  text-align: center;
-  line-height: 150%;
-  max-width: 940px;
-  font-size: 46px;
+  border-radius: 70px;
+  background-color: #fe6b12;
 }
 
 .button-intro {

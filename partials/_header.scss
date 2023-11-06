@@ -1,12 +1,13 @@
 header{ 
-    padding: 10px 50px;
+    padding: 18px 119px 18px 120px;
+    background-color: $primary-normal;
 
     
 }
 .header-content{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .header-content .logo{
@@ -20,9 +21,8 @@ header{
     gap: 60px;
 }
 
-i{
-    color: $primary-orange;
-    width: 10%;
+.header-links{
+    color: black;
 }
 
 .icons a:hover{
