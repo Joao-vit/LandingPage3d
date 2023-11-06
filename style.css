@@ -6,7 +6,6 @@
 }
 
 header {
-  padding: 18px 119px 18px 120px;
   background-color: #edf0f2;
 }
 
@@ -117,7 +116,24 @@ header {
   padding: 20px 20px 20px 20px;
 }
 .box-ellipse p {
+  color: #edf0f2;
   text-align: center;
+  font-size: 20px;
+}
+
+.chamada2 h2 {
+  color: #edf0f2;
+  font-size: 58.833px;
+  padding-bottom: 20px;
+}
+.chamada2 p {
+  color: #edf0f2;
+  font-size: 22.063px;
+  padding-bottom: 20px;
+}
+.chamada2 a {
+  color: #fe6b12;
+  font-size: 22.063px;
 }
 
 @keyframes scaleButton {
