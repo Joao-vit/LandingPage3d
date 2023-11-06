@@ -136,6 +136,23 @@ header {
   font-size: 22.063px;
 }
 
+.box-ellipse1 div {
+  display: flex;
+  text-align: justify;
+  gap: 20px;
+  padding: 20px 20px 20px 20px;
+}
+.box-ellipse1 h3 {
+  color: #edf0f2;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.box-ellipse1 p {
+  color: #edf0f2;
+  font-size: 22.063px;
+  padding-bottom: 20px;
+}
+
 @keyframes scaleButton {
   from {
     transform: scale(1);
