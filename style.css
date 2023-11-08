@@ -50,7 +50,7 @@ header {
   display: flex;
   padding: 84px 136.81px 81px 121px;
   align-items: center;
-  gap: 100px;
+  gap: 60px;
   justify-content: space-between;
 }
 
@@ -60,7 +60,7 @@ header {
   align-items: left;
 }
 .chamada1 h1 {
-  font-size: 69px;
+  font-size: 60px;
   color: #edf0f2;
   padding-bottom: 29px;
 }
@@ -108,8 +108,8 @@ header {
 }
 
 .box-ellipse img {
-  width: 170px;
-  height: 170px;
+  width: 130px;
+  height: 130px;
 }
 .box-ellipse div {
   display: inline-block;
@@ -123,7 +123,7 @@ header {
 
 .chamada2 h2 {
   color: #edf0f2;
-  font-size: 58.833px;
+  font-size: 55px;
   padding-bottom: 20px;
 }
 .chamada2 p {
@@ -137,13 +137,14 @@ header {
 }
 
 .box-ellipse1 img {
-  width: 170px;
-  height: 170px;
+  width: 130px;
+  height: 130px;
 }
 .box-ellipse1 div {
   display: flex;
   gap: 50px;
   padding: 30px 30px 30px 30px;
+  align-items: center;
 }
 .box-ellipse1 h3 {
   color: #edf0f2;
