@@ -150,6 +150,31 @@ header {
   padding-bottom: 20px;
 }
 
+.box-orange {
+  display: flex;
+  background-color: #fe6b12;
+  border-radius: 60px;
+  padding: 79px 74px 57px 79px;
+  gap: 100px;
+}
+.box-orange h2 {
+  font-size: 60px;
+  color: #edf0f2;
+}
+.box-orange button {
+  width: 221px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #edf0f2;
+  text-align: center;
+  color: #fe6b12;
+}
+.box-orange p {
+  font-size: 20px;
+  line-height: 40px;
+  color: #edf0f2;
+}
+
 @keyframes scaleButton {
   from {
     transform: scale(1);
