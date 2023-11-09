@@ -176,6 +176,20 @@ header {
   color: #edf0f2;
 }
 
+.img-text {
+  display: flex;
+}
+
+.text-img p {
+  font-size: 20px;
+  line-height: 40px;
+  color: #edf0f2;
+}
+.text-img h2 {
+  font-size: 60px;
+  color: #edf0f2;
+}
+
 @keyframes scaleButton {
   from {
     transform: scale(1);

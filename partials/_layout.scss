@@ -156,6 +156,23 @@
 
 }
 
+.img-text{
+    display: flex;
+}
+
+.text-img{
+  p{
+        font-size: 20px;
+        line-height: 40px;
+        color: $primary-normal;
+     }
+  h2{
+        font-size: 60px; 
+        color: $primary-normal; 
+  }
+
+}
+
 
 @keyframes scaleButton{
     from{
