@@ -19,12 +19,12 @@
         align-items: left;
     }
     h1{
-        font-size: 60px;
+        font-size: 50px;
         color: $primary-normal;
         padding-bottom: 29px;
     }
     p{
-        font-size: 20px;
+        font-size: 17px;
         color: $primary-normal; 
         padding-bottom: 44px;
     }
@@ -42,6 +42,7 @@
         border-radius: 37px;
         border: 1px solid rgba(0, 0, 0, 0.20);
         background: #FAFAFA;
+        font-size: 20px;
     }
     button{
         width: 146px;
@@ -51,6 +52,7 @@
         align-items: center;
         border-radius: 70px;
         background-color: $primary-orange;
+        font-size: 15px;
         }
     
 }
@@ -72,8 +74,8 @@
 
 .box-ellipse{    
     img{
-        width: 130px;
-        height: 130px;
+        width: 110px;
+        height: 110px;
     }  
     div{
         display: inline-block;
@@ -111,8 +113,8 @@
 
 .box-ellipse1{ 
     img{
-        width:130px ;
-        height: 130px;
+        width:110px ;
+        height: 110px;
     }
 
     div{
@@ -125,7 +127,10 @@
     h3{
         color: $primary-normal;
         padding-bottom: 20px;
+        font-size: 14px;
+    
     }
+ 
 
 }
 
@@ -158,6 +163,9 @@
 
 .img-text{
     display: flex;
+    img{
+        border-radius: 30px;
+    }
 }
 
 .text-img{
@@ -172,6 +180,74 @@
   }
 
 }
+
+
+.hero1{
+    display: inline-block;
+    padding: 84px 136.81px 81px 121px;
+    align-items: center;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.text{
+   display: flex;
+}
+#text-info{
+    width: 572px;
+    padding: 10px 10px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+  h4{
+    color: $primary-normal;
+    font-size: 20px;
+    line-height: 36px;
+  }
+  p{
+    font-size: 14px;
+    color: $primary-normal;
+    line-height: 20px;
+    
+  }
+}
+#button{
+    display: flex;
+    align-items: center;
+}
+
+
+#mais{
+    display: none;
+}
+#mais1{
+    display: none;
+}
+#mais2{
+    display: none;
+}
+
+#btnLeiaMais{
+    background-color: $primary-orange;
+    border-radius: 60px;
+    width: 20px;
+    height: 20px; 
+}
+#btnLeiaMais1{
+    background-color: $primary-orange;
+    border-radius: 60px;
+    width: 20px;
+    height: 20px; 
+}
+#btnLeiaMais2{
+    background-color: $primary-orange;
+    border-radius: 60px;
+    width: 20px;
+    height: 20px; 
+}
+
+
+
 
 
 @keyframes scaleButton{
