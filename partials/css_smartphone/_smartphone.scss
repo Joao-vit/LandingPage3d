@@ -7,18 +7,17 @@
         align-items: center;
         gap: 60px;
         justify-content: space-between;
+        text-align: center;
         
     
     }
     
     .chamada1{
         padding-top: 50px;
-        text-align: center;
-        
+     
         img{
             width: 164px;
             height: 108px;
-           
         }
         h1{
             font-size: 30px;
@@ -37,7 +36,7 @@
     .chamada1 .form1{
         display: inline-block;
         gap: 10px;
-        align-items: center;
+   
         input{
             width: 200px;
             padding: 20px 18px;

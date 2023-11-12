@@ -9,6 +9,7 @@ header {
   display: flex;
   background-color: #edf0f2;
   align-items: center;
+  width: 100%;
 }
 
 .img {
@@ -348,10 +349,10 @@ ul {
     align-items: center;
     gap: 60px;
     justify-content: space-between;
+    text-align: center;
   }
   .chamada1 {
     padding-top: 50px;
-    text-align: center;
   }
   .chamada1 img {
     width: 164px;
@@ -372,7 +373,6 @@ ul {
   .chamada1 .form1 {
     display: inline-block;
     gap: 10px;
-    align-items: center;
   }
   .chamada1 .form1 input {
     width: 200px;
