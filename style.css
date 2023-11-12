@@ -30,7 +30,7 @@ ul {
 }
 
 .bg-home .nav {
-  padding-right: 10%;
+  padding-right: 20px;
 }
 
 #chk-toggle {
@@ -91,18 +91,9 @@ ul {
   font-size: 15px;
 }
 
-.button-intro {
-  padding: 14px 28px;
-  color: #edf0f2;
-  background-color: #fe6b12;
-  border: 0;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 14px 0;
-}
-
-.button-intro:hover {
-  animation: scaleButton 0.8s alternate infinite;
+.first3D {
+  width: 500px;
+  height: 570px;
 }
 
 .box-ellipse img {
@@ -151,11 +142,11 @@ ul {
 }
 
 .box-orange {
-  display: inline-block;
+  display: flex;
   background-color: #fe6b12;
   border-radius: 60px;
-  padding: 40px;
-  text-align: center;
+  padding: 79px 74px 57px 79px;
+  gap: 100px;
 }
 .box-orange h2 {
   font-size: 60px;
@@ -353,6 +344,7 @@ ul {
   }
   .chamada1 {
     padding-top: 50px;
+    padding-bottom: 60px;
   }
   .chamada1 img {
     width: 164px;
@@ -393,6 +385,44 @@ ul {
     border-radius: 70px;
     background-color: #fe6b12;
     font-size: 15px;
+  }
+  .first3D {
+    width: auto;
+    height: 570px;
+    padding-bottom: 60px;
+  }
+  .box-ellipse {
+    padding-bottom: 60px;
+  }
+  .box-ellipse img {
+    width: 90px;
+    height: 90px;
+  }
+  .box-ellipse div {
+    display: inline-block;
+    width: 150px;
+  }
+  .box-ellipse p {
+    color: #edf0f2;
+    text-align: center;
+    font-size: 20px;
+  }
+  .chamada2 {
+    padding-bottom: 60px;
+  }
+  .chamada2 h2 {
+    color: #edf0f2;
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  .chamada2 p {
+    color: #edf0f2;
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+  .chamada2 a {
+    color: #fe6b12;
+    font-size: 18px;
   }
 }
 body {

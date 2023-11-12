@@ -58,19 +58,12 @@
     
 }
 
-.button-intro{
-    padding: 14px 28px;
-    color: $primary-normal;
-    background-color: $primary-orange;
-    border: 0;
-    font-size: 18px;
-    font-weight: 600;
-    margin: 14px 0;
+.first3D{
+    width: 500px;
+    height: 570px;
 }
 
-.button-intro:hover{
-    animation: scaleButton 0.8s alternate infinite;
-}
+
 
 
 .box-ellipse{    
@@ -136,12 +129,11 @@
 }
 
 .box-orange{
-    display: inline-block;
+    display: flex;
     background-color: $primary-orange;
     border-radius: 60px;
-    padding:40px;
-    text-align: center;
-    
+    padding:79px 74px 57px 79px;
+    gap: 100px;
     h2{
         font-size: 60px; 
         color: $primary-normal; 
