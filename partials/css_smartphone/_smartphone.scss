@@ -109,6 +109,29 @@
 
 
 
+    .box-ellipse1{ 
+        width: auto;
+        img{
+            width:110px ;
+            height: 110px;
+        }
+    
+        div{
+            display: flex;
+            gap: 50px;
+            padding: 30px 30px 30px 30px;
+            align-items: center;
+            
+        }
+        h3{
+            color: $primary-normal;
+            padding-bottom: 20px;
+            font-size: 14px;
+        
+        }
+     
+    
+    }
 
     .box-orange{
         width: auto;
