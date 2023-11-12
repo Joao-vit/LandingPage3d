@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px){
+   
+
+    header{
+        border-radius: 0px 0px 10px 10px;  
+        margin: 0 7px;
+    }
+    
+    #chk-t0ggle{
+        display: none;
+    }
+
+    #toggle{
+        display: inline-block;
+        padding: 11px;
+    }
+
+    #toggle span{
+        display: block;
+        width: 22px;
+        height: 3px;
+        background: $primary-orange;
+        margin: 2px;
+    }
+    
+    .header-content ul{
+        display: none;
+    }
+
+    .bg-home .nav{
+        display: none;
+    
+    }
+    
+    .img{
+        padding-left: 10%;
+        img{
+                width: 20%;
+        };
+        
+    }
+
+  
+
+}
+
+

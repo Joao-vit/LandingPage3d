@@ -6,48 +6,38 @@
 }
 
 header {
-  background-color: #edf0f2;
-}
-
-.header-content {
   display: flex;
+  background-color: #edf0f2;
   align-items: center;
-  justify-content: space-between;
 }
 
-.header-content .logo {
+.img {
+  padding-left: 10%;
+}
+.img img {
   width: 10%;
 }
 
-.header-content ul {
+ul {
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 100px;
 }
 
 .header-links {
   color: black;
 }
 
-@media screen and (max-width: 768px) {
-  .header-content .logo {
-    width: 100px;
-  }
-  header {
-    width: 100%;
-    padding: 5px 40px;
-  }
-  .header-content ul {
-    gap: 30px;
-  }
-}
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
+.bg-home .nav {
+  padding-right: 10%;
 }
 
-.container1 {
-  max-width: 1200px;
+#chk-toggle {
+  display: none;
+}
+
+.container {
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -160,11 +150,11 @@ header {
 }
 
 .box-orange {
-  display: flex;
+  display: inline-block;
   background-color: #fe6b12;
   border-radius: 60px;
-  padding: 79px 74px 57px 79px;
-  gap: 100px;
+  padding: 40px;
+  text-align: center;
 }
 .box-orange h2 {
   font-size: 60px;
@@ -269,21 +259,46 @@ header {
   height: 20px;
 }
 
-@keyframes scaleButton {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.07);
-  }
+.form2 h3 {
+  color: #edf0f2;
+  font-size: 36px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  line-height: 52px; /* 144.444% */
+  letter-spacing: -1px;
+  text-transform: capitalize;
 }
-@media screen and (max-width: 768px) {
-  .hero h1 {
-    font-size: 30px;
-    padding: 0 14px;
-    width: 100%;
-  }
+.form2 p {
+  color: #edf0f2;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  line-height: 36px; /* 180% */
 }
+.form2 div {
+  display: flex;
+  gap: 20px;
+}
+.form2 input {
+  display: flex;
+  padding: 20px 18px;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  border-radius: 70px;
+}
+.form2 button {
+  display: flex;
+  width: 144px;
+  height: 62px;
+  padding: 20px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 70px;
+  background-color: #fe6b12;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   background-color: #122233;
@@ -294,6 +309,92 @@ header {
   border-radius: 3px;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    border-radius: 0px 0px 10px 10px;
+    margin: 0 7px;
+  }
+  #chk-t0ggle {
+    display: none;
+  }
+  #toggle {
+    display: inline-block;
+    padding: 11px;
+  }
+  #toggle span {
+    display: block;
+    width: 22px;
+    height: 3px;
+    background: #fe6b12;
+    margin: 2px;
+  }
+  .header-content ul {
+    display: none;
+  }
+  .bg-home .nav {
+    display: none;
+  }
+  .img {
+    padding-left: 10%;
+  }
+  .img img {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    display: block;
+    padding: 10px;
+    align-items: center;
+    gap: 60px;
+    justify-content: space-between;
+  }
+  .chamada1 {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .chamada1 img {
+    width: 164px;
+    height: 108px;
+  }
+  .chamada1 h1 {
+    font-size: 30px;
+    color: #edf0f2;
+    padding-bottom: 29px;
+    text-align: center;
+  }
+  .chamada1 p {
+    font-size: 17px;
+    color: #edf0f2;
+    padding-bottom: 44px;
+    text-align: center;
+  }
+  .chamada1 .form1 {
+    display: inline-block;
+    gap: 10px;
+    align-items: center;
+  }
+  .chamada1 .form1 input {
+    width: 200px;
+    padding: 20px 18px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 37px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #FAFAFA;
+    font-size: 20px;
+  }
+  .chamada1 .form1 button {
+    width: 146px;
+    height: 64px;
+    padding: 20px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    background-color: #fe6b12;
+    font-size: 15px;
+  }
+}
 body {
   max-width: 100%;
   height: 100%;
@@ -316,4 +417,17 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+  }
+  html, body {
+    height: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

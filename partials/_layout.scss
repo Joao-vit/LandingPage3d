@@ -2,10 +2,7 @@
     max-width: 1440px;
     margin: 0 auto
 }
-.container1{
-    max-width: 1200px;
-    margin: 0 auto
-}
+
 
 .hero{
     display: flex;
@@ -139,11 +136,12 @@
 }
 
 .box-orange{
-    display: flex;
+    display: inline-block;
     background-color: $primary-orange;
     border-radius: 60px;
-    padding:79px 74px 57px 79px;
-    gap: 100px;
+    padding:40px;
+    text-align: center;
+    
     h2{
         font-size: 60px; 
         color: $primary-normal; 
@@ -250,27 +248,50 @@
     height: 20px; 
 }
 
-
-
-
-
-@keyframes scaleButton{
-    from{
-        transform: scale(1);
+.form2{
+   
+    h3{
+        color: $primary-normal;
+        font-size: 36px;
+        padding-bottom: 20px;
+        font-weight: 500;
+        line-height: 52px; /* 144.444% */
+        letter-spacing: -1px;
+        text-transform: capitalize;
     }
-    to{
-        transform: scale(1.07);
+    p{
+        color: $primary-normal;
+        font-size: 20px;
+        padding-bottom: 20px;
+        font-weight: 500;
+        line-height: 36px; /* 180% */
     }
+    div{
+        display: flex;
+        gap: 20px;
+    }
+    input{
+        display: flex;
+        padding: 20px 18px;
+        align-items: center;
+        gap: 10px;
+        flex: 1 0 0;
+        border-radius: 70px;
+    }
+    button{
+        display: flex;
+        width: 144px;
+        height: 62px;
+        padding: 20px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 70px;
+        background-color: $primary-orange;
+        }
+    
 }
 
-@media screen and (max-width: 768px){ 
-    .hero{
-        h1{
-            font-size: 30px;
-            padding: 0 14px;
-            width: 100%;
-        }
-    }
-    }
+
 
    

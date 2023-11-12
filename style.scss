@@ -9,6 +9,8 @@
 @import "partials/_header.scss";
 @import "partials/layout";
 @import "partials/scrollbar";
+@import "partials/css_smartphone/smartheader";
+@import "partials/css_smartphone/smartphone";
 
 
 body{
@@ -34,4 +36,19 @@ img{
 a{
     cursor: pointer;
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        position: relative;
+        border: none;
+       
+    }
+
+    html, body{
+        height: 100%;
+    }
 }

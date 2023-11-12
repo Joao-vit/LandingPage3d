@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px){ 
+
+
+    .hero{
+       display: block;
+       padding: 10px;
+        align-items: center;
+        gap: 60px;
+        justify-content: space-between;
+        
+    
+    }
+    
+    .chamada1{
+        padding-top: 50px;
+        text-align: center;
+        
+        img{
+            width: 164px;
+            height: 108px;
+           
+        }
+        h1{
+            font-size: 30px;
+            color: $primary-normal;
+            padding-bottom: 29px;
+            text-align: center;
+        }
+        p{
+            font-size: 17px;
+            color: $primary-normal; 
+            padding-bottom: 44px;
+            text-align: center;
+        }
+        
+    }
+    .chamada1 .form1{
+        display: inline-block;
+        gap: 10px;
+        align-items: center;
+        input{
+            width: 200px;
+            padding: 20px 18px;
+            align-items: center;
+            gap: 10px;
+            border-radius: 37px;
+            border: 1px solid rgba(0, 0, 0, 0.20);
+            background: #FAFAFA;
+            font-size: 20px;
+        }
+        button{
+            width: 146px;
+            height: 64px;
+            padding: 20px 24px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 70px;
+            background-color: $primary-orange;
+            font-size: 15px;
+            }
+        
+    } 
+  
+}
