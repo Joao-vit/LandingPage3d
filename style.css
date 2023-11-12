@@ -131,14 +131,14 @@ ul {
 }
 .box-ellipse1 div {
   display: flex;
-  gap: 50px;
+  gap: 20px;
   padding: 30px 30px 30px 30px;
   align-items: center;
 }
 .box-ellipse1 h3 {
   color: #edf0f2;
   padding-bottom: 20px;
-  font-size: 14px;
+  font-size: 40px;
 }
 
 .box-orange {
@@ -432,7 +432,7 @@ ul {
     height: 110px;
   }
   .box-ellipse1 div {
-    display: flex;
+    display: inline-block;
     gap: 50px;
     padding: 30px 30px 30px 30px;
     align-items: center;
@@ -440,7 +440,11 @@ ul {
   .box-ellipse1 h3 {
     color: #edf0f2;
     padding-bottom: 20px;
-    font-size: 14px;
+    font-size: 25px;
+  }
+  .box-ellipse1 p {
+    color: #edf0f2;
+    font-size: 15px;
   }
   .box-orange {
     width: auto;

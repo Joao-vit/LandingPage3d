@@ -63,9 +63,6 @@
     height: 570px;
 }
 
-
-
-
 .box-ellipse{    
     img{
         width: 110px;
@@ -102,9 +99,6 @@
     }
 
 }
-
-
-
 .box-ellipse1{ 
     img{
         width:110px ;
@@ -113,7 +107,7 @@
 
     div{
         display: flex;
-        gap: 50px;
+        gap: 20px;
         padding: 30px 30px 30px 30px;
         align-items: center;
         
@@ -121,7 +115,7 @@
     h3{
         color: $primary-normal;
         padding-bottom: 20px;
-        font-size: 14px;
+        font-size: 40px;
     
     }
  
