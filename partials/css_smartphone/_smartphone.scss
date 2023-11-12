@@ -106,4 +106,36 @@
     
     }
 
+
+
+
+
+    .box-orange{
+        width: auto;
+        display: inline-block;
+        background-color: $primary-orange;
+        border-radius: 60px;
+        padding: 30px;
+        h2{
+            font-size: 30px; 
+            color: $primary-normal; 
+            padding-bottom: 20px;
+        }
+        button{
+            width: 50%;
+            height: 40px;
+            border-radius: 50px;
+            background-color: $primary-normal;
+            text-align: center;
+            color: $primary-orange;
+        }
+    
+        p{
+            font-size: 18px;
+            line-height: 20px;
+            color: $primary-normal;
+            padding-bottom: 30px;
+        }
+    
+    }
 }

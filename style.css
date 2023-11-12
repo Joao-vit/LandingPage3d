@@ -9,7 +9,7 @@ header {
   display: flex;
   background-color: #edf0f2;
   align-items: center;
-  width: 100%;
+  width: auto;
 }
 
 .img {
@@ -423,6 +423,32 @@ ul {
   .chamada2 a {
     color: #fe6b12;
     font-size: 18px;
+  }
+  .box-orange {
+    width: auto;
+    display: inline-block;
+    background-color: #fe6b12;
+    border-radius: 60px;
+    padding: 30px;
+  }
+  .box-orange h2 {
+    font-size: 30px;
+    color: #edf0f2;
+    padding-bottom: 20px;
+  }
+  .box-orange button {
+    width: 50%;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #edf0f2;
+    text-align: center;
+    color: #fe6b12;
+  }
+  .box-orange p {
+    font-size: 18px;
+    line-height: 20px;
+    color: #edf0f2;
+    padding-bottom: 30px;
   }
 }
 body {
