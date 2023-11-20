@@ -36,22 +36,19 @@
     }
     .chamada1 .form1{
         display: inline-block;
-        gap: 10px;
-   
         input{
             width: 200px;
-            padding: 20px 18px;
+            padding: 10px ;
             align-items: center;
             gap: 10px;
             border-radius: 37px;
-            border: 1px solid rgba(0, 0, 0, 0.20);
             background: #FAFAFA;
             font-size: 20px;
         }
         button{
             width: 146px;
-            height: 64px;
-            padding: 20px 24px;
+            height: 50px;
+            padding: 0;
             justify-content: center;
             align-items: center;
             border-radius: 70px;
@@ -105,10 +102,6 @@
         }
     
     }
-
-
-
-
     .box-ellipse1{ 
         width: auto;
         img{
@@ -165,4 +158,27 @@
         }
     
     }
+    .img-text{
+        img{
+            border-radius: 30px;
+                        
+        }
+    }
+    .text-img{
+      p{
+            font-size: 20px;
+            line-height: 40px;
+            color: $primary-normal;
+            padding-top: 50px;
+         }
+      h2{
+            font-size: 60px; 
+            color: $primary-normal; 
+            padding-top: 50px;
+      }
+    
+    }
+    
+
+
 }

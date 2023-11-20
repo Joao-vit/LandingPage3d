@@ -59,6 +59,7 @@ ul {
   font-size: 50px;
   color: #edf0f2;
   padding-bottom: 29px;
+  font-family: poppins;
 }
 .chamada1 p {
   font-size: 17px;
@@ -114,6 +115,7 @@ ul {
   color: #edf0f2;
   font-size: 55px;
   padding-bottom: 20px;
+  font-family: poppins;
 }
 .chamada2 p {
   color: #edf0f2;
@@ -125,13 +127,21 @@ ul {
   font-size: 22.063px;
 }
 
+.second3d {
+  width: 500px;
+  height: 570px;
+}
+
+.box-ellipse1 {
+  width: auto;
+}
 .box-ellipse1 img {
   width: 110px;
   height: 110px;
 }
 .box-ellipse1 div {
-  display: flex;
-  gap: 20px;
+  display: inline-block;
+  gap: 50px;
   padding: 30px 30px 30px 30px;
   align-items: center;
 }
@@ -139,6 +149,7 @@ ul {
   color: #edf0f2;
   padding-bottom: 20px;
   font-size: 40px;
+  font-family: poppins;
 }
 
 .box-orange {
@@ -151,6 +162,7 @@ ul {
 .box-orange h2 {
   font-size: 60px;
   color: #edf0f2;
+  font-family: poppins;
 }
 .box-orange button {
   width: 221px;
@@ -181,6 +193,7 @@ ul {
 .text-img h2 {
   font-size: 60px;
   color: #edf0f2;
+  font-family: poppins;
 }
 
 .hero1 {
@@ -206,6 +219,7 @@ ul {
   color: #edf0f2;
   font-size: 20px;
   line-height: 36px;
+  font-family: poppins;
 }
 #text-info p {
   font-size: 14px;
@@ -259,6 +273,7 @@ ul {
   line-height: 52px; /* 144.444% */
   letter-spacing: -1px;
   text-transform: capitalize;
+  font-family: poppins;
 }
 .form2 p {
   color: #edf0f2;
@@ -291,6 +306,10 @@ ul {
   background-color: #fe6b12;
 }
 
+@font-face {
+  font-family: poppins;
+  src: url("/assets/fonts/poppins/Poppins-Bold.ttf");
+}
 ::-webkit-scrollbar {
   width: 10px;
   background-color: #122233;
@@ -364,22 +383,20 @@ ul {
   }
   .chamada1 .form1 {
     display: inline-block;
-    gap: 10px;
   }
   .chamada1 .form1 input {
     width: 200px;
-    padding: 20px 18px;
+    padding: 10px;
     align-items: center;
     gap: 10px;
     border-radius: 37px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
     background: #FAFAFA;
     font-size: 20px;
   }
   .chamada1 .form1 button {
     width: 146px;
-    height: 64px;
-    padding: 20px 24px;
+    height: 50px;
+    padding: 0;
     justify-content: center;
     align-items: center;
     border-radius: 70px;
@@ -471,6 +488,20 @@ ul {
     line-height: 20px;
     color: #edf0f2;
     padding-bottom: 30px;
+  }
+  .img-text img {
+    border-radius: 30px;
+  }
+  .text-img p {
+    font-size: 20px;
+    line-height: 40px;
+    color: #edf0f2;
+    padding-top: 50px;
+  }
+  .text-img h2 {
+    font-size: 60px;
+    color: #edf0f2;
+    padding-top: 50px;
   }
 }
 body {
